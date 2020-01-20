@@ -4,42 +4,43 @@
 
 1. Make sure Python 3.6 or higher and git are installed.
 
-Windows:
+    Windows:
 
-https://www.python.org/downloads/windows/
+    https://www.python.org/downloads/windows/
 
-If the installer asks to add Python to the path, check yes.
+    If the installer asks to add Python to the path, check yes.
 
-https://git-scm.com/download/win
+    https://git-scm.com/download/win
 
-MacOS:
+    MacOS:
 
-Open Spotlight search by clicking the magnifying glass icon in the top right of your screen. Search for `Terminal`. Open it. Paste the following commands and press enter.
+    Open Spotlight search by clicking the magnifying glass icon in the top right of your screen. Search for `Terminal`. Open it. Paste the following commands and press enter.
 
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-echo 'export PATH="/usr/local/opt/python/libexec/bin:$PATH"' >> ~/.profile
-brew install python
-```
+    ```
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    echo 'export PATH="/usr/local/opt/python/libexec/bin:$PATH"' >> ~/.profile
+    brew install python
+    ```
 
-Linux:
+    Linux:
 
-Open a terminal window. Paste the following commands and press enter.
+    Open a terminal window. Paste the following commands and press enter.
 
-```
-sudo apt install -y python3
-sudo apt install -y python3-pip
-sudo apt install -y git
-```
+    ```
+    sudo apt install -y python3
+    sudo apt install -y python3-pip
+    sudo apt install -y git
+    ```
 
 2. Open a terminal/command prompt window
+
 3. Run the commands below. Depending on your system you may need replace `pip3` instead of `pip`.
 
-```
-git clone https://github.com/andivis/dicom.git
-cd dicom
-pip3 install lxml
-```
+    ```
+    git clone https://github.com/andivis/dicom.git
+    cd dicom
+    pip3 install lxml
+    ```
 
 ## Instructions
 
