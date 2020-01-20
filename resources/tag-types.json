@@ -1,0 +1,7 @@
+{
+    "1": "Required",
+    "1C": "Conditionally Required",
+    "2": "Required, Empty if Unknown",
+    "2C": "Conditionally Required, Empty if Unknown",
+    "3": "Optional"
+}
